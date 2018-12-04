@@ -1,0 +1,227 @@
+
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+     
+    background-image: linear-gradient(#c0c8c7, #2f466c);
+    min-height: 768px;
+    min-width: 1024px;
+}
+/*------------------------------------------------------------*/
+.container {
+    
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------------*/
+header{
+    background: #2f466c;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    margin: 0 auto;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+header ul {
+    min-width: 300px;
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+header li {
+    float: left; 
+    display: inline;
+    padding: 0 20px 0 20px;
+    margin-top: 30px;
+
+}
+
+header #branding {
+    float: left;
+    font-size: 40px;
+}
+
+header #branding h1 {
+    
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    padding-top: 15px;
+    padding-left: 10px;
+    
+}
+
+nav a {
+    display: inline-block;
+    
+    
+}
+
+header a:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*------------------------------------------------------------*/
+
+#showcase {
+    background: url(images/particle1.jpg) no-repeat;
+    min-height: 650px;
+    border: solid 1px;
+    text-align: center;
+    width: 1980;
+    min-width: 800px;
+    margin: auto;
+}
+
+#showcase h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family:sans-serif;
+
+    padding-bottom: 100px;
+ 
+    
+}
+
+#showcase p {
+    text-align: center;
+    color: #e8491d;
+    font-family: fantasy, monospace, sans-serif;
+    font-size: 60px;
+   text-decoration: underline;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    width:50%;
+    height: 50%
+}
+/*------------------------------------------------------------*/
+
+#side {
+    background-color:#e8491d;
+ ;
+    float: right;
+    width: 18%;
+    min-width: 50px;
+    color: white;
+    margin: 0 auto;
+    padding-left: 10px; 
+    border: solid 3px;
+    border-color: black;
+    
+}
+
+#side ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+#side li {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    ;
+    
+}
+
+#side h3 {
+    font-size: 40px;
+    border-bottom: solid black;
+    
+}
+
+#side li:hover {
+    color: #7ca787;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#side a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+
+
+
+
+/*------------------------------------------------------------*/
+
+#content{
+    text-align: center;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3e5263;
+    border: solid;
+    border-color: #e8491d;
+    color: white;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#intro p {
+    font-size: 40px;
+    
+}
+#intro h1{
+    font-size: 50px;
+}
+
+#content img{
+    text-align: center;
+    overflow: hidden;
+    border: solid;
+    border-color:  #e8491d;
+    margin-left: 30px;
+    min-width: 100px;
+    width: 70%;
+    
+}
+
+
+#content img:hover{
+    
+    
+}
+
+    
+
+
+
+/*------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #35424a;
+    text-align: center;
+    min-height: 70px;
+    margin:auto;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
